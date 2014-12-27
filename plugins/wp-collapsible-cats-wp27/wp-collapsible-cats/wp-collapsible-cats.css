@@ -1,0 +1,77 @@
+#cateTree{
+}
+
+#cateTree .empty_img{
+	width:14px;
+	height:14px;
+	margin-right:4px;
+	border:none!important;
+}
+
+#cateTree .feed_img{
+	width:14px;
+	height:14px;
+}
+
+#cateTree .top_text{
+	background:url(images/top.gif) 0 0px no-repeat;
+}
+
+#cateTree .parent_first{
+	background:url(images/point_top.gif) 0 0px no-repeat;
+}
+
+#cateTree .parent{
+	background:url(images/point.gif) 0 0px no-repeat;
+}
+
+#cateTree .parent_last{
+	background:url(images/point_bottom.gif) 0 0px no-repeat;
+}
+
+#cateTree .parent_first_s{
+	background:url(images/point_top_s.gif) 0 0px no-repeat;
+}
+
+#cateTree .parent_s{
+	background:url(images/point_s.gif) 0 0px no-repeat;
+}
+
+#cateTree .parent_last_s{
+	background:url(images/point_bottom_s.gif) 0 0px no-repeat;
+}
+
+#cateTree .no_parent_first{
+	background:url(images/no_point_top.gif) 0 0px no-repeat;
+}
+
+#cateTree .no_parent{
+	background:url(images/no_point.gif) 0 0px no-repeat;
+}
+
+#cateTree .no_parent_last{
+	background:url(images/no_point_bottom.gif) 0 0px no-repeat;
+}
+
+#cateTree .last_cate{
+	background:url(images/no_point_bottom.gif) 0 0px no-repeat;
+}
+
+
+#cateTree .branch{
+	padding-left:20px;
+	background:url(images/line.gif) 0 0px repeat-y;
+}
+
+#cateTree .branch_link{
+	text-decoration:none!important;
+	border:none !important;
+}
+
+#cateTree .branch_last{
+	padding-left:20px;
+}
+
+#cateTree .branch_item{
+	background:url(images/no_point.gif) 0 0px repeat-y;
+}
