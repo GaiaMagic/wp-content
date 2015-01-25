@@ -1,4 +1,9 @@
 <?php
+	function wpseo_img_src_filter ($uri) {
+		return preg_replace('/^https?:\/\/([^\/]+?)(mg|musicianguide)([^\/]+?)\//', 'http://dn-musicianguide.qbox.me/', $uri);
+	}
+	add_filter('wpseo_xml_sitemap_img_src', 'wpseo_img_src_filter');
+
 	register_nav_menus( array(
 		'global' => '全局导航'
 	) );
