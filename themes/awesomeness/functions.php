@@ -4,6 +4,12 @@
 	}
 	add_filter('wpseo_xml_sitemap_img_src', 'wpseo_img_src_filter');
 
+	function content_feed_replace ($content) {
+		return preg_replace('/https?:\/\/control\.musicianguide\.cn\//', 'http://dn-musicianguide.qbox.me/', $content);
+	}
+	add_filter('the_content_feed', 'content_feed_replace');
+	add_filter('rss_enclosure', 'content_feed_replace');
+
 	register_nav_menus( array(
 		'global' => '全局导航'
 	) );
